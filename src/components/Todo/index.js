@@ -36,7 +36,7 @@ const Todo = () => {
     },[])
     return (
       <div className="container">
-          <div className="row justify-content-center my-5" >
+          <div className="row my-5" >
               <div className="col-md-4 offset-md-4">
                   <TodoHeader value={value} handleInput={handleInput} addTodo={addTodo} lenght={todos.length} />
                   <ul className="list-group">
